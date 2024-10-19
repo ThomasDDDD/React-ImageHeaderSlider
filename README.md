@@ -1,8 +1,17 @@
-# React + Vite
+# A Image Slider for a Header Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 100vh:
 
-Currently, two official plugins are available:
+![Fullscreen, 100vh ](./preview100vh.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 70vh:
+
+![Fullscreen, 70vh ](./preview70vh.png)
+
+## Minimum 50vh:
+
+![Fullscreen, MIN 50vh ](./preview%20MIN_50vh.png)
+
+## Mobil :
+
+![Mobil, 70vh ](./previewMOBIL.png)
