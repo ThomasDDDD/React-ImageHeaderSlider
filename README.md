@@ -1,5 +1,9 @@
 # A Image Slider for a Header Component
 
+Props to: LunDev: https://www.youtube.com/watch?v=j7GG009J9uc&ab_channel=LunDev
+
+Rebuild on React as a ready to use Component for dynamic datas by Mr-Takka-T GitHub: ThomasDDDD
+
 ## 100vh:
 
 ![Fullscreen, 100vh ](./preview100vh.png)

@@ -10,7 +10,7 @@
   color: #eee;
   margin: 0;
   font-size: 12px;
-  height: 50vh;
+  height: 75vh;
 }
 .sliderHeader {
   width: 1140px;
@@ -62,7 +62,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 0px -250px;
+  object-position: 0px -180px;
 }
 .Karusell .list .item .content {
   position: absolute;
@@ -211,8 +211,6 @@
   to {
     opacity: 1;
     filter: blur(0);
-    /* transform: translateY(0);
-    transform: translateX(0); */
     transform: translate(0px, 0px);
   }
 }
@@ -295,11 +293,17 @@
     bottom: 50px;
   }
 }
-.Karusell.prev.thumpnails .item:nth-child(1) {
+.Karusell.prev .thumpnails .item:nth-child(1) {
   width: 0;
   overflow: hidden;
   opacity: 0;
-  animation: showThumpnail 0.5s linear 1 forwards;
+  animation: showThumpnail 0.7s linear 1 forwards;
+}
+@keyframes showThumpnail {
+  to {
+    width: 150px;
+    opacity: 1;
+  }
 }
 .Karusell.prev .list .item:nth-child(2) .regisseur,
 .Karusell.prev .list .item:nth-child(2) .title,
@@ -365,4 +369,6 @@
 }
 
 /* Props gehen raus an: LunDev:  https://www.youtube.com/watch?v=j7GG009J9uc&ab_channel=LunDev
+
+Rebuild on React as a ready to use Component for dynamic Datas by Mr-TakkaT GitHub: ThomasDDDD
 */

@@ -9,14 +9,12 @@ export function AppProvider({ children }) {
 
   function firstToLast(movieArrToTurn) {
     const thumpMovieArr = [...movieArrToTurn];
-    const movieToBack = thumpMovieArr.shift();
-    thumpMovieArr.push(movieToBack);
+    thumpMovieArr.push(thumpMovieArr.shift());
     return thumpMovieArr;
   }
   function lastToFirst(movieArrToTurn) {
     const thumpMovieArr = [...movieArrToTurn];
-    const movieToBack = thumpMovieArr.pop();
-    thumpMovieArr.unshift(movieToBack);
+    thumpMovieArr.unshift(thumpMovieArr.pop());
     return thumpMovieArr;
   }
 
