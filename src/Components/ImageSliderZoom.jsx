@@ -6,6 +6,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 import "./ImageSliderZoom.css";
+import SliderHeader from "./SliderHeader";
 
 function ImageSliderZoom() {
   const { movieArr, setMovieArr, movieArrThump, setMovieArrThump, firstToLast, lastToFirst } = useContext(AppContext);
@@ -28,6 +29,7 @@ function ImageSliderZoom() {
   return (
     <>
       <div className="sliderBox">
+        {/* <SliderHeader /> */}
         <div className={`Karusell ${turnClass}`}>
           <div className="list">
             {movieArr.map((movie) => {
